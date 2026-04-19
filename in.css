@@ -1,0 +1,42 @@
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr;
+    background-color: rgb(83, 83, 83);
+}
+
+
+#fr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: rgb(0, 0, 0);
+}
+
+#sc{
+    grid-row: 2;
+}
+
+#th{
+    grid-row: 3;
+}
+
+#btn:hover{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+#im{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
+
+#en{
+    cursor: pointer;
+    color: aliceblue;
+}
