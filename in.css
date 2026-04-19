@@ -7,6 +7,12 @@ body{
     background-color: rgb(83, 83, 83);
 }
 
+@media(max-width-600px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+}
 
 #fr{
     display: flex;
