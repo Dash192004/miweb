@@ -2,8 +2,7 @@
 
 body{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
     background-color: rgb(83, 83, 83);
 }
 
